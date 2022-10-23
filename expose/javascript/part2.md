@@ -21,26 +21,42 @@
 11. This funtion will return a list called "discounted", which contains a list of the finalPrice (original price with the discount applied). In this case, [ 50, 100, 150 ].
 
 12. a. student.name
+    
     b. student['Grad Year']
+    
     c. student.greeting();
+    
     d. student['Favourite teacher']["name"]
+    
     e. student.courseload[0]
 
 
 13. a. '32' since integers map to their exact string   representation
+    
     b. 1 since the integer representation of '3' is 3 and 3-2=1
+    
     c. 3 since null becomes 0 when added to 3 and 3+0=3
+    
     d. '3null' since null becomes 'null' and is concatenated with '3', forming a new string
+    
     e. 4 since true maps to 1 and 1+3=4
+    
     f. 0 since both false and null map to 0 and 0+0=0
+    
     g. '3undefined' since undefined maps to its exact string representation and is concatenated with '3', forming a new string
+    
     h. NaN since conversion failed and undefined becomes NaN
 
 14. a. true since the integer representation of '2' is 2 and 2>1 is true
+    
     b. false since it is dictionary comparison: first char "2" is greater than the first char "1"
+    
     c. true since '2' becomes 2 and 2 is equal to itself
+    
     d. false since strict equality is strict. Different types from both sides lead to false.
+    
     e. false since true becomes 1 and 1 is not equal to 2
+    
     f. true since Boolean(2) maps to true, thus === true
 
 15. A strict equality operator === checks the equality without type conversion while == checks with type conversion
